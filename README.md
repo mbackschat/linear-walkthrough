@@ -38,3 +38,7 @@ The skill executes the following prompt:
 > Also note that programming language concepts are less relevant than heavily used libraries/frameworks.
 >
 > **Skip explanations for:** pure TypeScript, React, Redux, Java.
+
+## Credits
+
+Based on the [Linear Walkthroughs](https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs) pattern from Simon Willison's Agentic Engineering Patterns guide.
