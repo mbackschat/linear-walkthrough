@@ -13,6 +13,8 @@ Read the source and then plan a linear walkthrough of the code that explains how
 
 Then run `showboat --help` to learn showboat - use showboat to create a `walkthrough.md` file in the repo and build the walkthrough in there, using `showboat note` for commentary and `showboat exec` plus `sed` or `grep` or `cat` or whatever you need to include snippets of code you are talking about.
 
+**Syntax highlighting:** All code blocks in the walkthrough MUST have a language identifier for syntax highlighting. When using `showboat exec` to include code snippets, wrap the output in a fenced code block with the appropriate language tag. Infer the language from the file extension (e.g., `.ts` → `typescript`, `.py` → `python`, `.rs` → `rust`, `.go` → `go`, `.java` → `java`, `.rb` → `ruby`, `.sh` → `bash`, `.json` → `json`, `.yaml`/`.yml` → `yaml`, `.css` → `css`, `.html` → `html`, `.sql` → `sql`, `.md` → `markdown`, `.jsx` → `jsx`, `.tsx` → `tsx`). If the file extension is ambiguous or unavailable, guess the language from the content.
+
 Also explain advanced concepts in the programming language, libraries/frameworks where these concepts are used in the source.
 
 But make sure to not repeat yourself by repeating explanation.
