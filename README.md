@@ -1,6 +1,6 @@
 # linear-walkthrough
 
-A Claude Code skill that creates detailed linear walkthroughs of codebases using [showboat](https://github.com/daytonaio/showboat).
+A Claude Code skill that creates detailed linear walkthroughs of codebases using [showboat](https://github.com/simonw/showboat).
 
 ## Installation
 
@@ -15,11 +15,11 @@ Copy the `.claude/skills/linear-walkthrough/` directory into your project or per
 ## Prerequisites
 
 - [Claude Code](https://claude.com/claude-code) CLI
-- [showboat](https://github.com/daytonaio/showboat) installed and available in PATH
+- [showboat](https://github.com/simonw/showboat) installed and available in PATH
 
 ## TODO
 
-- [ ] Once [showboat#25](https://github.com/daytonaio/showboat/pull/25) lands (`--output-lang` flag), remove the manual fence-fixing step from the skill and use `--output-lang` instead.
+- [ ] Once [showboat#25](https://github.com/simonw/showboat/pull/25) lands (`--output-lang` flag), remove the manual fence-fixing step from the skill and use `--output-lang` instead.
 
 ## Credits
 
