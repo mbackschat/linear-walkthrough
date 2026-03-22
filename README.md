@@ -27,6 +27,10 @@ The skill executes the following prompt:
 >
 > **Syntax highlighting:** All code blocks in the walkthrough MUST have a language identifier for syntax highlighting. When using `showboat exec` to include code snippets, wrap the output in a fenced code block with the appropriate language tag. Infer the language from the file extension. Always use the most widely compatible language keys — use short, common identifiers (e.g., `python` not `python3`, `bash` not `shell`, `js` not `javascript`, `ts` not `typescript`, `rb` not `ruby`, `yml` not `yaml`). If the file extension is ambiguous or unavailable, guess the language from the content.
 >
+> **Markdown quality:**
+> - Never escape backticks in headings. Write `` ### `func()` — Description `` not `` ### \`func()\` — Description ``.
+> - Use LaTeX math (`$...$` for inline, `$$...$$` for display) for mathematical expressions, not inline code. For example, write `$y = Wx$` not `` `y = W @ x` ``.
+>
 > Also explain advanced concepts in the programming language, libraries/frameworks where these concepts are used in the source.
 >
 > But make sure to not repeat yourself by repeating explanation.
