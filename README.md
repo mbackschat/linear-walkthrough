@@ -17,6 +17,10 @@ Copy the `.claude/skills/linear-walkthrough/` directory into your project or per
 - [Claude Code](https://claude.com/claude-code) CLI
 - [showboat](https://github.com/daytonaio/showboat) installed and available in PATH
 
+## TODO
+
+- [ ] Once [showboat#25](https://github.com/daytonaio/showboat/pull/25) lands (`--output-lang` flag), remove the manual fence-fixing step from the skill and use `--output-lang` instead.
+
 ## Credits
 
 Based on the [Linear Walkthroughs](https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs) pattern from Simon Willison's Agentic Engineering Patterns guide.
